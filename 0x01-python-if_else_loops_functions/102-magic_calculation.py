@@ -1,7 +1,12 @@
 #!/usr/bin/python3
-def remove_char_at(str, n):
-    if n >= 0:
-        newString = str[:n] + str[n + 1:]
-    else:
-        newString = str
-    return newString
+# 102-magic_calculation.py
+
+
+def magic_calculation(a, b, c):
+    """Match bytecode provided by Holberton School."""
+    if a < b:
+        return (c)
+    if c > b:
+        return (a + b)
+    return (a*b - c)
+
